@@ -1,0 +1,36 @@
+/* Variaveis Globais */
+:root {
+  --cor-fundo-grafite: #1a1a1a;
+  --cor-marca-amarelo: ##f5cb15;
+  --cor-texto-principal: #ffffff;
+  --cor-texto-secundario: #a0a0a0;
+
+  --fonte-principal: "Montserrat", sans-serif;
+}
+
+/* Reset CSS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor-fundo-grafite);
+  color: var(--cor-texto-principal);
+  font-family: var(--fonte-principal);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
