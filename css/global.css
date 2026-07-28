@@ -1,7 +1,7 @@
-/* Variaveis Globais */
+/* Variaveis Globais (Corrigido o ## do amarelo) */
 :root {
   --cor-fundo-grafite: #1a1a1a;
-  --cor-marca-amarelo: ##f5cb15;
+  --cor-marca-amarelo: #f5cb15;
   --cor-texto-principal: #ffffff;
   --cor-texto-secundario: #a0a0a0;
 
@@ -36,13 +36,11 @@ button {
 }
 
 /* Utilitários */
-
 .container-header {
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 0px 20px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
