@@ -121,5 +121,86 @@
   color: #555555;
   font-size: 0.9rem;
   font-weight: 600;
-  white-space: nowrap; /* Impede o texto de quebrar linha dentro do quadrado */
+  white-space: nowrap;
+}
+
+/* secao diferenciais */
+
+.secao-diferenciais {
+  padding: 100px 0px;
+  background-color: #202020;
+}
+
+.container-diferenciais {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.topo-diferenciais {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.subtitulo-amarelo {
+  color: var(--cor-marca-amarelo);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.topo-diferenciais h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.topo-diferenciais p {
+  color: var(--cor-texto-secundario);
+  max-width: 650px;
+  margin: 0px auto;
+  font-size: 1.5rem;
+}
+
+.cards-diferenciais {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card-item {
+  background-color: var(--cor-fundo-grafite);
+  padding: 40px 30px;
+  border-radius: 6px;
+  border: 1px solid #2a2a2a;
+  transition: all 0.3s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--cor-marca-amarelo);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.icone-card {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.card-item h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.card-item p {
+  color: var(--cor-texto-secundario);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
