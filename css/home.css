@@ -363,7 +363,7 @@
 }
 
 .galeria-item.item-largo {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .placeholder-galeria-img {
