@@ -8,6 +8,11 @@
   --fonte-principal: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 /* Reset CSS */
 * {
   margin: 0px;
