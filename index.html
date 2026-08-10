@@ -5,12 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MORAUTO | Soluções Automotivas Premium em Campinas</title>
+    <meta name="description" content="Funilaria premium, pintura computadorizada e estética automotiva de alto padrão em Campinas. Reparos invisíveis, laboratório de cores próprio e estrutura 100% acessível.">
+
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="MORAUTO | Soluções Automotivas Premium em Campinas">
+    <meta property="og:description" content="Funilaria premium, pintura computadorizada e estética automotiva de alto padrão em Campinas. Atendimento exclusivo e laboratório de cores próprio.">
+    <meta property="og:image" content="./assets/fachada-morauto.png">
+    <meta property="og:locale" content="pt_BR">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "MORAUTO Soluções Automotivas",
+      "image": "./assets/fachada-morauto.png",
+      "telephone": "+551932430797",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Dr. Rafael Sáles, 198 - Bonfim",
+        "addressLocality": "Campinas",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "12:00"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -25,7 +66,7 @@
                 </a>
             </div>
 
-            <nav class="menu-navegacao">
+            <nav class="menu-navegacao" id="menu-navegacao">
                 <ul>
                     <li><a href="./index.html" class="link-ativo">Home</a></li>
                     <li><a href="#quem-somos">Quem Somos</a></li>
@@ -36,9 +77,14 @@
             </nav>
 
             <div class="ctas-header">
-                <a href="https://wa.me/5519999378930?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" class="botao-whatsapp-header">
+                <a href="https://wa.me/5519999378930?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="botao-whatsapp-header">
                     Orçamento
                 </a>
+                <button type="button" class="botao-menu-mobile" id="botao-menu-mobile" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-navegacao">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
@@ -55,7 +101,7 @@
 
 
                 <div class="botoes-hero">
-                    <a href="https://wa.me" target="_blank" class="botao-principal-hero">
+                    <a href="https://wa.me/5519999378930?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="botao-principal-hero">
                         Solicitar Orçamento Grátis
                     </a>
                     <a href="#servicos" class="botao-secundario-hero">
@@ -64,13 +110,13 @@
                 </div>
 
                 <div class="prova-social-hero">
-                    <div class="estrelas">⭐⭐⭐⭐⭐</div>
+                    <div class="estrelas" aria-hidden="true">⭐⭐⭐⭐⭐</div>
                     <p><strong>Nota 5.0 no Google</strong> com base na avaliação de clientes satisfeitos.</p>
                 </div>
             </div>
 
             <div class="imagem-hero">
-                <img src="./assets/fachada-morauto.png" alt="Oficina Morauto Soluções Automotivas em Campinas - Fachada Amarela com carro adesivado" class="foto-fachada-hero">
+                <img src="./assets/fachada-morauto.png" alt="Oficina Morauto Soluções Automotivas em Campinas - Fachada Amarela com carro adesivado" class="foto-fachada-hero" width="550" height="400" fetchpriority="high">
             </div>
 
         </div>
@@ -91,21 +137,21 @@
 
 
                 <div class="card-item">
-                    <div class="icone-card">🔬</div>
+                    <div class="icone-card" aria-hidden="true">🔬</div>
                     <h3>Alta Tecnologia</h3>
                     <p>Laboratório de tintas próprio com espectrofotômetro e correspondência de cor computadorizada. Garantia de acabamento idêntico ao padrão original de fábrica.</p>
                 </div>
 
 
                 <div class="card-item">
-                    <div class="icone-card">🏆</div>
+                    <div class="icone-card" aria-hidden="true">🏆</div>
                     <h3>Avaliação 5 Estrelas</h3>
                     <p>Compromisso real com a perfeição. Somos reconhecidos em Campinas pela qualidade invisível nos reparos de funilaria e acabamento de alto padrão.</p>
                 </div>
 
 
                 <div class="card-item">
-                    <div class="icone-card">♿</div>
+                    <div class="icone-card" aria-hidden="true">♿</div>
                     <h3>Espaço 100% Acessível</h3>
                     <p>Estrutura totalmente planejada com rampa de acesso, vagas exclusivas e ambiente seguro, inclusivo e acolhedor para todos os públicos.</p>
                 </div>
@@ -142,7 +188,7 @@
                         </ul>
                     </div>
                     <div class="servico-imagem">
-                        <img src="./assets/oficina-interna.png" alt="Interior da oficina Morauto com BYD Song Plus finalizado e carros em reparo de funilaria estrutural" class="foto-servico">
+                        <img src="./assets/oficina-interna.png" alt="Interior da oficina Morauto com BYD Song Plus finalizado e carros em reparo de funilaria estrutural" class="foto-servico" width="600" height="350" loading="lazy">
                     </div>
                 </div>
 
@@ -159,7 +205,7 @@
                         </ul>
                     </div>
                     <div class="servico-imagem">
-                        <img src="./assets/oficina-interna-pintura.png" alt="Área técnica da Morauto com carros em manutenção e cabine de pintura profissional ao fundo" class="foto-servico">
+                        <img src="./assets/oficina-interna-pintura.png" alt="Área técnica da Morauto com carros em manutenção e cabine de pintura profissional ao fundo" class="foto-servico" width="600" height="350" loading="lazy">
                     </div>
                 </div>
 
@@ -178,7 +224,7 @@
                     </div>
                     <div class="servico-imagem">
 
-                        <img src="./assets/oficina-mercedes-estetica.png" alt="Mercedes-Benz preta com polimento técnico de alto brilho no setor de estética automotiva da Morauto" class="foto-servico">
+                        <img src="./assets/oficina-mercedes-estetica.png" alt="Mercedes-Benz preta com polimento técnico de alto brilho no setor de estética automotiva da Morauto" class="foto-servico" width="600" height="350" loading="lazy">
                     </div>
                 </div>
 
@@ -263,7 +309,7 @@
 
                 <div class="lista-dados-contato">
                     <div class="dado-item">
-                        <span class="icone-dado">📍</span>
+                        <span class="icone-dado" aria-hidden="true">📍</span>
                         <div>
                             <h4>Endereço</h4>
                             <p>Rua Dr. Rafael Sáles, 198 — Bonfim, Campinas - SP</p>
@@ -271,7 +317,7 @@
                     </div>
 
                     <div class="dado-item">
-                        <span class="icone-dado">🕒</span>
+                        <span class="icone-dado" aria-hidden="true">🕒</span>
                         <div>
                             <h4>Horário de Funcionamento</h4>
                             <p>Segunda a Sexta: 08h às 18h<br>Sábados: 08h às 12h</p>
@@ -279,7 +325,7 @@
                     </div>
 
                     <div class="dado-item">
-                        <span class="icone-dado">📞</span>
+                        <span class="icone-dado" aria-hidden="true">📞</span>
                         <div>
                             <h4>Telefone e WhatsApp</h4>
                             <p>(19) 3243-0797</p>
@@ -312,6 +358,26 @@
         </div>
     </footer>
 
+    <script>
+        const botaoMenuMobile = document.getElementById('botao-menu-mobile');
+        const menuNavegacao = document.getElementById('menu-navegacao');
+
+        botaoMenuMobile.addEventListener('click', () => {
+            const menuAberto = menuNavegacao.classList.toggle('menu-aberto');
+            botaoMenuMobile.classList.toggle('ativo', menuAberto);
+            botaoMenuMobile.setAttribute('aria-expanded', menuAberto);
+            botaoMenuMobile.setAttribute('aria-label', menuAberto ? 'Fechar menu' : 'Abrir menu');
+        });
+
+        menuNavegacao.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                menuNavegacao.classList.remove('menu-aberto');
+                botaoMenuMobile.classList.remove('ativo');
+                botaoMenuMobile.setAttribute('aria-expanded', 'false');
+                botaoMenuMobile.setAttribute('aria-label', 'Abrir menu');
+            });
+        });
+    </script>
 
 </body>
 
