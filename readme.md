@@ -74,7 +74,7 @@ O desenvolvimento deste projeto consolidou habilidades práticas fundamentais pa
 
 ## 👨‍💻 Autor
 
-Desenvolvido com dedicação por **SEU NOME AQUI**.
+Desenvolvido com dedicação por **Lincoln Berto**.
 
 - **Portfólio:** [https://lincolnberto.com](https://lincolnberto.com)
 - **LinkedIn:** [https://www.linkedin.com/in/lincoln-berto/](https://www.linkedin.com/in/lincoln-berto/)
